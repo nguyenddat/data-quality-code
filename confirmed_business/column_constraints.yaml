@@ -1,0 +1,13 @@
+version: 1
+dimension: completeness
+step: null_auto_classification
+status: confirmed
+description: Regex nhận diện sơ bộ các cột có thể chứa Meaningful NULL.
+rules:
+  - id: conditional-null-column-name
+    null_classify: Conditional NULL
+    patterns:
+      - "(^|_)ngay(_|$)"
+      - "(^|_)ket_qua(_|$)"
+      - "(^|_)ly_do(_|$)"
+      - "(^|_)ghi_chu(_|$)"

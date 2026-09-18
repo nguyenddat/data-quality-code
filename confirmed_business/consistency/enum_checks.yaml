@@ -1,0 +1,14 @@
+version: 1
+dimension: consistency
+step: enum_check
+description: Các tập giá trị hợp lệ đã được nghiệp vụ xác nhận.
+status: draft
+rules: []
+# Rule template:
+#
+# - id: public-patient-gender-enum
+#   status: need_check
+#   owner: data-owner
+#   pattern: enum
+#   column: public.patient.gender
+#   allowed_values: [Nam, Nu, Khac]

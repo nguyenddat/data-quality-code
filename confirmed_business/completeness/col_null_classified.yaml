@@ -1,0 +1,6 @@
+version: 1
+dimension: completeness
+step: null_meaning
+description: Phân loại ý nghĩa NULL theo ngữ cảnh nghiệp vụ.
+status: draft
+rules: []

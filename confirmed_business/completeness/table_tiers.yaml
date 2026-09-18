@@ -1,0 +1,14 @@
+version: 1
+dimension: completeness
+step: table_tier
+description: Phân loại bảng nghiệp vụ theo Tier.
+status: draft
+# Add one rule per table after confirmation by the data owner.
+# rules:
+#   - id: public-benh_nhan-tier
+#     status: confirmed
+#     owner: data-owner
+#     schema: public
+#     table: benh_nhan
+#     tier: 1
+rules: []

@@ -1,0 +1,18 @@
+version: 1
+dimension: consistency
+step: cross_table_check
+description: Các quy tắc so sánh dữ liệu giữa các bảng.
+status: draft
+rules: []
+# Rule template:
+#
+# - id: patient-name-consistency
+#   status: need_check
+#   owner: data-owner
+#   pattern: duplicated_value
+#   source: public.patient.full_name
+#   target: public.medical_record.patient_name
+#   join:
+#     - source: public.patient.patient_id
+#       target: public.medical_record.patient_id
+#   null_policy: exclude_if_either_null

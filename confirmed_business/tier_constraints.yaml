@@ -1,0 +1,32 @@
+version: 1
+dimension: completeness
+step: tier_auto_classification
+status: confirmed
+description: Keyword cố định dùng để gợi ý Tier tự động theo tên bảng.
+rules:
+  - tier: 3
+    keywords:
+      - log
+      - audit
+      - history
+      - histor
+      - temp
+      - tmp
+  - tier: 2
+    keywords:
+      - dm_
+      - danh_muc
+      - danhmuc
+      - catalog
+      - lookup
+      - config
+      - setting
+      - parameter
+      - permission
+      - role
+      - user
+      - account
+      - menu
+      - module
+      - function
+      - sys_

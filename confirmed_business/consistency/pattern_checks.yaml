@@ -1,0 +1,40 @@
+version: 1
+dimension: consistency
+step: pattern_check
+description: Các quy tắc logic giữa các cột hoặc bản ghi.
+status: draft
+rules: []
+# Rule templates:
+#
+# - id: public-example-date-order
+#   status: need_check
+#   owner: data-owner
+#   pattern: date_order
+#   table: public.example_table
+#   start_column: started_at
+#   end_column: ended_at
+#   operator: "<"
+#
+# - id: public-example-total-detail
+#   status: need_check
+#   owner: data-owner
+#   pattern: total_detail
+#   total_table: public.invoice
+#   total_column: total_amount
+#   detail_table: public.invoice_item
+#   detail_column: amount
+#   join_columns:
+#     - total: invoice_id
+#       detail: invoice_id
+#   tolerance: 0
+#
+# - id: public-example-status-terminal
+#   status: need_check
+#   owner: data-owner
+#   pattern: status_terminal
+#   table: public.example_history
+#   entity_columns: [example_id]
+#   status_column: status
+#   event_time_column: event_at
+#   terminal_values: [closed, completed]
+#   require_terminal: true
