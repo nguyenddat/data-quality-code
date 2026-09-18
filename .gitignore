@@ -8,3 +8,6 @@ __pycache__/
 venv/
 *.log
 
+# Generated cache directories and YAML configuration files
+**/cache/
+*.yaml
